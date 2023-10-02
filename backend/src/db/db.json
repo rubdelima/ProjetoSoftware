@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "email": "email@pessoa.com",
+      "senha": "senha123",
+      "nome": "Paulo Franca",
+      "tipo": "adm",
+      "id": 1001
+    },
+    {
+      "email": "estudante@email.com",
+      "senha": "senha123",
+      "nome": "Fabio Vieira",
+      "tipo": "aluno",
+      "setor": "Grad3",
+      "id": 2
+    }
+  ],
+  "requirements": [
+    {
+      "id": 2000,
+      "student_id": 2,
+      "accountable_id": null,
+      "title": "PC com problema no Grad3",
+      "tipo": "problema",
+      "setor": "Grad3",
+      "status": "não respondida",
+      "messages": [
+        {
+          "emissor_id": 2,
+          "message": "O pc 3 do grad 3 está com problemas",
+          "data": "2023-10-01 12:43:13.113419"
+        }
+      ]
+    },
+    {
+      "id": 2001,
+      "student_id": 2,
+      "accountable_id": null,
+      "title": "Novo",
+      "tipo": "problema",
+      "setor": "Grad3",
+      "status": "não respondida",
+      "messages": [
+        {
+          "emissor_id": 2,
+          "message": "Grande Problema",
+          "data": "2023-10-01 23:25:12.888355"
+        }
+      ]
+    }
+  ]
+}

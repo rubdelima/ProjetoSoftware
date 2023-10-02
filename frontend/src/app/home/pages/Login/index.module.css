@@ -1,0 +1,118 @@
+.container {
+  text-align: center;
+  background: rgb(251,91,91);
+background: radial-gradient(circle, rgba(251,91,91,1) 0%, rgba(255,213,213,1) 36%);
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+
+.topText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3vw;
+  margin-top: 6vh;
+  font-weight: bold;
+  color: #b31c1c;
+}
+
+.centralizedBox {
+  background-color: #FFFFFF;
+  min-height: 500px; 
+  width: 600px; 
+  margin-top: 100px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBoxTest {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.emailInputField,
+.passwordInputField {
+  width: 300px;
+  height: 32px;
+  background-color: #E2E2E2;
+  border: 2px solid #E2E2E2;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.emailInputField::placeholder,
+.passwordInputField::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Anonymous Pro", monospace;
+  font-weight: bold;
+}
+
+.emailInputField:focus,
+.passwordInputField:focus {
+  outline: none;
+}
+
+.emailInputField:focus::placeholder,
+.passwordInputField:focus::placeholder {
+  color: transparent;
+}
+
+.loginButton {
+  height: 40px;
+  width: 80px; 
+  background-color: #f66969;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #dd0202;
+}
+
+.loginButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.textButton {
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #FFFFFF;
+  color:  #dd0202;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.error {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.cinLogo {
+  max-width: 200px;
+  height: auto;
+}
